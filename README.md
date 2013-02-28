@@ -30,3 +30,6 @@ NEXT-RNAi prerequisites depend on the mode of running that is used. E.g. for des
 
 ## Get started
 Read the installation instruction here: http://b110-wiki.dkfz.de/signaling/wiki/display/nextrnai/Installing+NEXT-RNAi
+
+## Installation
+Installation and testscripts are available for some OS, have a look at the directory: installation_scripts
