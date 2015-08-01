@@ -1,4 +1,4 @@
-## NextRNAi
+## NextRNAi - a software package for the design of RNAi libraries
 ========
 By Thomas Horn, Thomas Sandmann and Michael Boutros. 
 http://www.nextrnai.org
