@@ -46,14 +46,14 @@ mkdir "blat"
 unzip -d "../software/blat" "blatSuite.34.zip"
 
 #Installation of blast
-wget "ftp://ftp.ncbi.nlm.nih.gov/blast/executables/release/LATEST/blast-2.2.26-ia32-linux.tar.gz"
-tar -C "../software" -xvf "blast-2.2.26-ia32-linux.tar.gz"
-mv "blast-2.2.26" "blast"
+wget "https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/ncbi-blast-2.12.0+-x64-linux.tar.gz"
+tar -C "../software" -xvf "ncbi-blast-2.12.0+-x64-linux.tar.gz"
+mv "ncbi-blast-2.12.0+" "blast"
 
 #Install ViennaRNA
-wget "http://www.tbi.univie.ac.at/RNA/ViennaRNA-1.8.5.tar.gz"
-tar -C "../software" -xvf "ViennaRNA-1.8.5.tar.gz"
-mv "ViennaRNA-1.8.5" "ViennaRNA"
+wget "https://www.tbi.univie.ac.at/RNA/download/sourcecode/2_4_x/ViennaRNA-2.4.18.tar.gz"
+tar -C "../software" -xvf "ViennaRNA-2.4.18.tar.gz"
+mv "ViennaRNA-2.4.18" "ViennaRNA"
 cd "ViennaRNA"
 ./configure
 make
