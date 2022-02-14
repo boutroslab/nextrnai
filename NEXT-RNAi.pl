@@ -642,7 +642,7 @@ sub BowtieTarget {
 		    $inputsiRNA = $1.$2;
 		}
 # number of matches of complete input sequence to a certain sequence in the off-target database
-		if ((!defined %$TargetExclude) || (!exists $$TargetExclude{$columns[2]})){
+		if ((!%$TargetExclude) || (!exists $$TargetExclude{$columns[2]})){
 		    if (!exists $$InputTarget{$input}{$columns[2]}){
 			$$InputTarget{$input}{$columns[2]} = 1;
 		    }
